@@ -1,8 +1,34 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+#header img {
+	height: 300px;
+	width: 300px;
+}
+#header {
+	margin-bottom: 2rem;
+}
+#youtube-video {
+	margin-top: 2rem;
+}
+#youtube-video img {
+	height: 300px;
+	width: 500px;
+}
+#product-description p {
+	line-height: 2.0;
+}
+#features ul {
+	line-height: 2.0;
+}
+#buy-now button {
+	width: 100%;
+	margin: 2rem 0;
+}
+#contact-info img {
+	width: 100%;
+	height: auto;
+}
+#contact-info div{
+	margin-bottom: 0;
 }

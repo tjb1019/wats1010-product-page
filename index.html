@@ -7,18 +7,9 @@
         <!-- TODO: Add proper head tag to provide a page description for search
              engines. -->
         <title>API Superstore</title>
-        <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-        <!-- End Bootstrap CSS Framework -->
+		<link rel="stylesheet" href="main.css">
 
         <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
@@ -27,28 +18,87 @@
 
     </head>
     <body>
-        <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. -->
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
-
-        <!-- TODO: Create an area to put the explainer video. -->
-
-        <!-- TODO: Create an area to put the long product description. -->
-
-        <!-- TODO: Create an area to put customer testimonials. -->
-
-        <!-- TODO: Create an area to show features. -->
-
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
-
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
-    </body>
+		<header class="container" id="header">
+        	<div class="row">
+        		<div class="col-md-4"><img src="assets/logos/api_superstore_sqlogo_ry.png" alt="API Superstore logo"></div>
+				<div class="col-md-8"><h1> Click, click, code!</h1></div>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row" id="buy-now">
+				<div class="col-md-4 col-md-offset-4">
+					<button type="button" class="btn btn-success btn-lg">Buy Now!</button>
+				</div>
+			</div>
+			<div class="row" id="youtube-video">
+				<div class="col-md-4 col-md-offset-1">
+					
+				</div>
+				<div class="col-md-6 col-md-offset-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo?rel=0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="row" id="product-description">
+				<div class="col-md-5">
+					<h2 class="text-center">Product Description</h2>
+					<p class="text-justify">The API Superstore provides a catalog of third-party API's that you can use to enhance your business.  From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself!  The longer you wait, the longer you're not making more money and happier users!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-6" id="features">
+					<h3> Features</h3>
+					<ul>
+						<li>Links to the best API's from all over the web</li>
+						<li>Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!</li>
+						<li>Convenient catalog</li>
+						<li>Elegant shopping experience</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6" id="testimonials">
+					<h3> Testimonials</h3>
+					<blockquote>
+						<p>This is the best website ever!</p>
+						<footer>C.P. Yu, AmazingSite.com</footer>
+					</blockquote>
+					<blockquote>
+						<p>Once again, I'm blown away by the amazing offerings of the API Superstore.  You really are SUPER!</p>
+						<footer>Clara Cache</footer>
+					</blockquote>
+				</div>
+			</div>
+			<div class="row" id="buy-now">
+				<div class="col-md-4 col-md-offset-4">
+					<button type="button" class="btn btn-success btn-lg">Buy Now!</button>
+				</div>
+			</div>
+			<div class="row" id="social">
+				<div class="col-md-12">
+					<!-- insert social link icons -->
+				</div>
+			</div>
+		</div>
+		<footer class="container-fluid" id="footer">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="text-center">Contact Us</h3>
+				</div>
+			</div>
+			<div class="row" id="contact-info">
+				<div class="col-md-3">
+					<img src="assets/logos/api_superstore_logo_ry.png" alt="API Superstore logo">
+				</div>
+				<div class="col-md-3">
+					<p><strong>Phone:</strong> (206)555-1234</p>
+				</div>
+				<div class="col-md-3">
+					<p><strong>E-mail:</strong> info@apisuperstore.com</p>
+				</div>
+				<div class="col-md-3">
+					<p><strong>Location:</strong> Seattle, WA</p>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
