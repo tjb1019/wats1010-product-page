@@ -1,12 +1,22 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+body {
+	background-image: url('assets/misc/dirt-background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
 #header img {
 	height: 300px;
 	width: 300px;
 }
 #header {
 	margin-bottom: 2rem;
+}
+#social a:hover {
+	opacity: 0.7;
 }
 #youtube-video {
 	margin-top: 2rem;
@@ -29,6 +39,6 @@
 	width: 100%;
 	height: auto;
 }
-#contact-info div{
-	margin-bottom: 0;
+#contact-info p{
+	margin: 0;
 }
