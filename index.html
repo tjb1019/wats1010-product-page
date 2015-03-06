@@ -18,22 +18,10 @@
 
     </head>
     <body>
-		<header class="container" id="header">
-			<div class="dropcloth">&nbsp;</div>
+		<header class="container-fluid" id="header">
         	<div class="row">
-        		<div class="col-md-4"><img src="assets/logos/api_superstore_sqlogo_by.png" alt="API Superstore logo"></div>
-				<div class=""
-			</div>
-		</header>
-		<div class="container">
-			<div class="row" id="buy-now">
-				<div class="col-md-4 col-md-offset-4">
-					<button type="button" class="btn btn-success btn-lg">Buy Now!</button>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6" id="social">
-					<h2>Share the API Superstore with your friends!</h2><br>
+        		<div class="col-md-4"><img id="api-logo" src="assets/logos/api_superstore_sqlogo_by.png" alt="API Superstore logo"></div>
+				<div class="col-md-3 col-md-offset-5" id="social">
 					<a href="#buy-now">
 						<img src="assets/social-icons/Facebook.png" alt="Facebook logo" title="Share us on Facebook!">
 					</a>
@@ -47,17 +35,19 @@
 						<img src="assets/social-icons/Flickr.png" alt="Flickr logo" title="Share us on Flickr!">
 					</a>
 				</div>
-				<div class="col-md-6" id="youtube-video">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo?rel=0" allowfullscreen></iframe>
-				</div>
 			</div>
-			<div class="row" id="product-description">
-				<div class="col-md-5">
+		</header>
+		<div class="container-fluid" id="main-body">
+			<div class="row" id="description-video">
+				<div class="col-md-5" id="product-description">
 					<h2>Product Description</h2>
 					<p class="text-justify">The API Superstore provides a catalog of third-party API's that you can use to enhance your business.  From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself!  The longer you wait, the longer you're not making more money and happier users!</p>
 				</div>
+				<div class="col-md-6 col-md-offset-1" id="youtube-video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo?rel=0" autoplay=1 allowfullscreen></iframe>
+				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="carousel-features">
 				<div class="col-md-6 col-md-offset-6" id="features">
 					<h2> Features</h2>
 					<ul>
@@ -68,7 +58,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="steps-testimonials">
 				<div class="col-md-6" id="testimonials">
 					<h2> Testimonials</h2>
 					<blockquote>
@@ -81,37 +71,34 @@
 					</blockquote>
 				</div>
 			</div>
-			<div class="row" id="buy-now">
-				<div class="col-md-4 col-md-offset-4">
-					<button type="button" class="btn btn-success btn-lg">Buy Now!</button>
+			<div class="row" id="call-action">
+				<div class="col-md-4 col-md-offset-4" id="buy-now">
+					<button type="button" class="btn btn-primary btn-lg active">Want to save time, and/or money? Buy Now!</button>
 				</div>
 			</div>
-			<div class="row" id="social">
-				<div class="col-md-12">
-					<!-- insert social link icons -->
+			<footer class="container-fluid" id="footer">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="text-center">Contact Us</h3>
+					</div>
 				</div>
-			</div>
+				<div class="row" id="contact-info">
+					<div class="col-md-3">
+						<img src="assets/logos/api_superstore_logo_by.png" alt="API Superstore logo">
+					</div>
+					<div class="col-md-3">
+						<p><strong>Phone:</strong> (206)555-1234</p>
+					</div>
+					<div class="col-md-3">
+						<p><strong>E-mail:</strong> info@apisuperstore.com</p>
+					</div>
+					<div class="col-md-3">
+						<p><strong>Location:</strong> Seattle, WA</p>
+					</div>
+				</div>
+			</footer>
 		</div>
-		<footer class="container-fluid" id="footer">
-			<div class="row">
-				<div class="col-md-12">
-					<h3 class="text-center">Contact Us</h3>
-				</div>
-			</div>
-			<div class="row" id="contact-info">
-				<div class="col-md-3">
-					<img src="assets/logos/api_superstore_logo_by.png" alt="API Superstore logo">
-				</div>
-				<div class="col-md-3">
-					<p><strong>Phone:</strong> (206)555-1234</p>
-				</div>
-				<div class="col-md-3">
-					<p><strong>E-mail:</strong> info@apisuperstore.com</p>
-				</div>
-				<div class="col-md-3">
-					<p><strong>Location:</strong> Seattle, WA</p>
-				</div>
-			</div>
-		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
