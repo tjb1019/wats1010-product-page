@@ -2,29 +2,30 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-	background-image: url('assets/misc/london.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	min-height: 100%;
 	color: white;
 }
-#api-logo {
-	height: 300px;
-	width: 300px;
-}
-#header {
-	height: 350px;
-}
-#social a:hover {
-	opacity: 0.7;
+nav a {
+	background-image: url('assets/logos/api_superstore_logo_by.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 100px;
+	height: 25px;
 }
 #main-body {
 	background-image: url('assets/misc/grey-wood.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-top: 4rem;
+}
+#youtube-video {
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+}
+#buy-now button{
+	width: 100%;
 }
 #product-description p {
 	line-height: 2.5;
@@ -32,20 +33,10 @@ body {
 #features ul {
 	line-height: 2.5;
 }
-#buy-now button {
-	width: 100%;
-}
 #contact-info img {
 	width: 100%;
 	height: auto;
 }
 #contact-info p{
 	line-height: 4.5;
-}
-#description-video,
-#carousel-features,
-#steps-testimonials,
-#call-action {
-	margin-top: 4rem;
-	margin-bottom: 4rem;
 }
