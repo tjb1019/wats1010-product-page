@@ -1,7 +1,7 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-nav a {
+.navbar-header a {
 	background-image: url('assets/logos/api_superstore_logo_by.png');
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -17,15 +17,56 @@ nav h1 {
 	margin-bottom: 0;
 	border-radius: 0;
 }
+#social-links {
+	display: inline;
+}
+.item h2 {
+	font-family: Permanent Marker;
+}
 #main-body {
 	padding-top: 4rem;
-	background: lightgray;
 }
 #product-description,
 #features,
 #testimonials {
 	margin-top: 5rem;
 	margin-bottom: 5rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	position: relative;
+	height: 400px;
+}
+#product-description h2,
+#features h2,
+#testimonials h2 {
+	font-family: Rock Salt;
+	margin-bottom: 2rem;
+}
+.dropcloth {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	background-color: rgba(252,252,252,0.7);
+}
+#testimonials {
+	background-image: url('assets/misc/black-keyboard.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#product-description {
+	background-image: url('assets/misc/metal-city-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#features {
+	background-image: url('assets/misc/html-code.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 #youtube-video {
 	margin-top: 2rem;
@@ -39,17 +80,20 @@ nav h1 {
 }
 #features ul {
 	line-height: 2.5;
+	padding-left: 1.5rem;
 }
 #contact-info {
 	border-top: 2px solid grey;
-	padding-top: 3rem;
-}
-#contact-info img {
-	width: 250px;
+	background: #222222;
+	color: white;
 	height: 50px;
 }
-#contact-info p{
+#contact-info img {
+	width: 200px;
+	height: auto;
+}
+#contact-info p {
 	display: inline-block;
-	line-height: 4.5;
+	line-height: 3.0;
 	margin-right: 3rem;
 }
