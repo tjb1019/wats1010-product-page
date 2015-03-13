@@ -31,7 +31,7 @@
 	font-size: 5.0rem;
 }
 #main-body {
-	
+	background-image: url('assets/misc/concrete.png');
 }
 #steps {
 	background: #3B3B3D;
@@ -44,7 +44,16 @@
 #steps p {
 	font-family: Pacifico;
 	font-size: 2rem;
-	margin-top: 2rem;
+	margin-top: 1.2rem;
+}
+#step-1,
+#step-2,
+#step-3 {
+	margin-top: 0.7rem;
+}
+#video-features {
+	margin-top: 8rem;
+	margin-bottom: 15rem;
 }
 #youtube-video {
 	text-align: center;
@@ -97,6 +106,16 @@ blockquote img {
 	margin-bottom: 3rem;
 	height: 300px;
 	width: 300px;
+}
+#resources {
+	height: 600px;
+	clear: both;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+#resources div.thumbnail {
+	margin-top: 10rem;
+	margin-bottom: 10rem;
 }
 #contact-info {
 	border-top: 2px solid grey;
