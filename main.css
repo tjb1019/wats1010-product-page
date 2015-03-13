@@ -1,30 +1,37 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-.navbar-header a {
-	background-image: url('assets/logos/api_superstore_logo_by.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	display: inline-block;
-	width: 150px;
+#logo {
 	height: 50px;
-}
-nav h1 {
-	margin: 0;
+	width: 250px;
+	margin-right: 20px;
 }
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
+	height: 50px;
 }
 #social-links {
 	display: inline;
 }
-.item h2 {
+#facebook {
+	color: #3249DB;
+}
+#twitter {
+	color: skyblue;
+}
+#google {
+	color: red;
+}
+#linkedin {
+	color: white;
+}
+.carousel-caption h2 {
 	font-family: Permanent Marker;
+	font-size: 5.0rem;
 }
 #main-body {
-	padding-top: 4rem;
+	padding-top: 8rem;
 }
 #product-description,
 #features,
@@ -34,12 +41,13 @@ nav h1 {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 	position: relative;
-	height: 400px;
+	height: 600px;
 }
 #product-description h2,
 #features h2,
 #testimonials h2 {
 	font-family: Rock Salt;
+	font-size: 4rem;
 	margin-bottom: 2rem;
 }
 .dropcloth {
@@ -47,7 +55,7 @@ nav h1 {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 400px;
+	height: 600px;
 	background-color: rgba(252,252,252,0.7);
 }
 #testimonials {
@@ -69,28 +77,29 @@ nav h1 {
 	background-position: center;
 }
 #youtube-video {
-	margin-top: 2rem;
-	margin-bottom: 4rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
-#buy-now button{
-	width: 100%;
+#buy-now button {
+	margin-right: 2rem;
 }
 #product-description p {
 	line-height: 2.5;
+	font-size: 2rem;
 }
 #features ul {
 	line-height: 2.5;
-	padding-left: 1.5rem;
+	font-size: 2rem;
 }
 #contact-info {
 	border-top: 2px solid grey;
 	background: #222222;
 	color: white;
-	height: 50px;
+	height: 200px;
 }
 #contact-info img {
-	width: 200px;
-	height: auto;
+	width: 250px;
+	height: 50px;
 }
 #contact-info p {
 	display: inline-block;
