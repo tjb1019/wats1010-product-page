@@ -86,24 +86,17 @@
 #product-description p {
 	margin-top: 6rem;
 }
-#testimonials h2 {
-	font-family: Rock Salt;
-	font-size: 4rem;
-	margin-bottom: 2rem;
-}
 #testimonials {
-	margin-top: 5rem;
-	margin-bottom: 5rem;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	position: relative;
 	height: 600px;
 }
-#testimonials {
-	background-image: url('assets/misc/black-keyboard.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+#testimonials blockquote {
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+blockquote img {
+	margin-bottom: 3rem;
+	height: 300px;
+	width: 300px;
 }
 #contact-info {
 	border-top: 2px solid grey;
