@@ -31,10 +31,66 @@
 	font-size: 5.0rem;
 }
 #main-body {
-	padding-top: 8rem;
+	
 }
-#product-description,
-#features,
+#steps {
+	background: #3B3B3D;
+	color: white;
+	font-size: 3rem;
+	font-family: Rock Salt;
+	height: 150px;
+	text-align: center;
+}
+#steps p {
+	font-family: Pacifico;
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+#youtube-video {
+	text-align: center;
+}
+#youtube-video iframe{
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+#youtube-video button {
+	margin-right: 2rem;
+}
+#features h2 {
+	font-family: Permanent Marker;
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 3rem;
+}
+.dropcloth {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(252,252,252,0.7);
+}
+#product-description {
+	background-image: url('assets/misc/black-keyboard.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	font-family: Rock Salt;
+	font-size: 2.5rem;
+	height: 200px;
+	position: relative;
+	margin-top: 9rem;
+}
+#product-description p {
+	margin-top: 6rem;
+}
+#testimonials h2 {
+	font-family: Rock Salt;
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
 #testimonials {
 	margin-top: 5rem;
 	margin-bottom: 5rem;
@@ -43,53 +99,11 @@
 	position: relative;
 	height: 600px;
 }
-#product-description h2,
-#features h2,
-#testimonials h2 {
-	font-family: Rock Salt;
-	font-size: 4rem;
-	margin-bottom: 2rem;
-}
-.dropcloth {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 600px;
-	background-color: rgba(252,252,252,0.7);
-}
 #testimonials {
 	background-image: url('assets/misc/black-keyboard.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-}
-#product-description {
-	background-image: url('assets/misc/metal-city-background.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-#features {
-	background-image: url('assets/misc/html-code.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-#youtube-video {
-	margin-top: 5rem;
-	margin-bottom: 5rem;
-}
-#buy-now button {
-	margin-right: 2rem;
-}
-#product-description p {
-	line-height: 2.5;
-	font-size: 2rem;
-}
-#features ul {
-	line-height: 2.5;
-	font-size: 2rem;
 }
 #contact-info {
 	border-top: 2px solid grey;
