@@ -117,18 +117,27 @@ blockquote img {
 	margin-top: 10rem;
 	margin-bottom: 10rem;
 }
-#contact-info {
+#footer {
 	border-top: 2px solid grey;
 	background: #222222;
 	color: white;
 	height: 200px;
 }
-#contact-info img {
-	width: 250px;
-	height: 50px;
+#footer ul {
+	list-style-type: none;
 }
-#contact-info p {
-	display: inline-block;
-	line-height: 3.0;
-	margin-right: 3rem;
+#contact-info,
+#about,
+#copyright {
+	margin-top: 5rem;
+}
+#address img {
+	height: 100px;
+	width: 100px;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	margin-left: 5rem;
+}
+#address p {
+	margin-left: 5rem;
 }
