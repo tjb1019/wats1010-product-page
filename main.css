@@ -17,6 +17,9 @@
 #social-links {
 	display: inline;
 }
+#social-links li {
+	height: 50px;
+}
 #facebook {
 	color: #3249DB;
 }
@@ -47,12 +50,12 @@
 #steps p {
 	font-family: Pacifico;
 	font-size: 2rem;
-	margin-top: 1.2rem;
+	margin-top: 1rem;
 }
 #step-1,
 #step-2,
 #step-3 {
-	margin-top: 0.7rem;
+	margin-top: 0.4rem;
 }
 #video-features {
 	margin-top: 8rem;
@@ -133,6 +136,9 @@ blockquote img {
 #footer ul {
 	list-style-type: none;
 	padding-left: 0;
+}
+#footer h5 {
+	font-family: Rock Salt;
 }
 #contact-info,
 #about,
