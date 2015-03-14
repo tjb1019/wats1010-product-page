@@ -117,6 +117,10 @@ blockquote img {
 	margin-top: 10rem;
 	margin-bottom: 10rem;
 }
+.thumbnail > img {
+	height: 250px;
+	width: 100%;
+}
 #footer {
 	border-top: 2px solid grey;
 	background: #222222;
@@ -125,6 +129,7 @@ blockquote img {
 }
 #footer ul {
 	list-style-type: none;
+	padding-left: 0;
 }
 #contact-info,
 #about,
@@ -135,7 +140,7 @@ blockquote img {
 	height: 100px;
 	width: 100px;
 	margin-top: 1rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	margin-left: 5rem;
 }
 #address p {
